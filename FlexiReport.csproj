@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Flexi Report .NET Library</Title>
+    <Version>9.0.0</Version>
+    <Authors>Taner Saydam</Authors>
+    <Description>A backend library for generating and managing reports in Flexi Report. Supports dynamic SQL queries, database schema retrieval, and seamless integration with the Angular frontend.</Description>
+    <Copyright>© 2024 Taner Saydam. Licensed under the MIT License.</Copyright>
+    <PackageIcon>profile-favicon.jpg</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>.NET; Reporting; Flexi Report; SQL; Backend; Data Processing; Report Generator; API; Angular Integration</PackageTags>
+    <PackageReleaseNotes>Initial release with core features:
+
+- Dynamic SQL query execution
+- Database schema retrieval
+- Report model with customizable properties
+- API integration for frontend communication</PackageReleaseNotes>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\Users\PC\Desktop\profile-favicon.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.3" />
+    <PackageReference Include="TS.Result" Version="9.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
