@@ -20,6 +20,8 @@
 - Report model with customizable properties
 - API integration for frontend communication</PackageReleaseNotes>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/TanerSaydam/FlexiReport.NETLibrary.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
