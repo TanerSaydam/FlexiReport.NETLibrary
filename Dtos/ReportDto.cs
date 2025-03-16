@@ -10,7 +10,7 @@ public sealed record ReportDto(
     string FontFamily,
     string SqlQuery,
     string BackgroundColor,
-    List<RequestElementDto> RequestElements);
+    List<RequestElementDto>? RequestElements);
 
 public sealed record RequestElementDto(
     int Index,

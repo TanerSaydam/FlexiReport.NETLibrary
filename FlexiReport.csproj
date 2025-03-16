@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>Flexi Report .NET Library</Title>
-    <Version>9.0.0</Version>
+    <Version>9.0.1</Version>
     <Authors>Taner Saydam</Authors>
     <Description>A backend library for generating and managing reports in Flexi Report. Supports dynamic SQL queries, database schema retrieval, and seamless integration with the Angular frontend.</Description>
     <Copyright>© 2024 Taner Saydam. Licensed under the MIT License.</Copyright>
